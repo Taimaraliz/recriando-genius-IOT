@@ -64,6 +64,8 @@ Navegue até "Ferramentas" > "Placa:" > "Gerenciador de Placas". Na janela do Ge
 ### Modelo de Montagem
 
 ![Imagem da protoboard montada](/img/montagem.png) 
+
+
 ![Imagem do circuito](/img/Arduino.jpg) 
 
 
