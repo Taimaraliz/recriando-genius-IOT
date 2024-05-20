@@ -1,4 +1,5 @@
-# EXPLORANDO O JOGO DA MEMÓRIA "GENIUS" COMO FERRAMENTA DE ENSINO E REABILITAÇÃO DOS MOVIMENTOS PARA CRIANÇAS E ADOLESCENTES
+## Explorando o jogo da memória "Genius" como ferramenta de ensino e reabilitação dos movimentos para crianças e adolescentes
+
 
 📌 Versão
 1.0
@@ -14,7 +15,7 @@ adolescência.
 
 ### 🛠️ Construido com:
  * Linguagem C++
- * ESP32 - para monitoramento de batimentos cardíacos wireless, combinado com o 
+ * ESP32
  * sensor HCSR04
  * 1 Protoboard (mín.820 pinos)
  * 4 resistores de 300 ohms;
@@ -23,7 +24,7 @@ adolescência.
  * 4 leds de Cores Diferentes (azul, vermelho, amarelo e verde)
  * 26 Jumpers macho-macho
  * 8 Resistências elétricas de 10kΩ
- * desenvolvimento feito na IDE do Arduino, empregando programação específica para integrar   hardware e software
+ * desenvolvimento feito na IDE do Arduino, empregando programação específica para integrar hardware e software
  * comunicação via MQTT para transmissão de dados em tempo real para a plataforma Ubidots.
 
 
@@ -63,34 +64,31 @@ Navegue até "Ferramentas" > "Placa:" > "Gerenciador de Placas". Na janela do Ge
 ### Modelo de Montagem
 
 ![Imagem da protoboard montada](/img/montagem.png) 
+![Imagem do circuito](/img/Arduino.jpg) 
 
 
-⚙️ Executando os testes
+### Configurando conta Ubidots
+Para publicar os dados no IoT Cloud, precisamos de alguma plataforma IoT. Portanto, Ubidots é uma dessas plataformas. Ubidots oferece uma plataforma para desenvolvedores que lhes permite capturar facilmente dados de sensores e transformá-los em informações úteis. Use a plataforma Ubidots para enviar dados para a nuvem a partir de qualquer dispositivo habilitado para Internet.
+
+⌨️ - será necessario criar uma conta no Ubidots
+Acesse ubidots.com e crie uma conta. Você terá um período de teste de 30 dias.
+
+#### Links importantes nas configurações e criações
+[Doc. Ubidots](https://help.ubidots.com/en/articles/748067-connect-an-esp32-devkitc-to-ubidots-over-mqtt)
+[Doc. Uarduino](https://embarcados.com.br/como-programar-o-esp32-na-arduino-ide/)
+[Doc. config. ESP32](https://www.crescerengenharia.com/post/configurar-wifi-esp32)
+
+
+
+⚙️  Comunicação
 Explicar como executar os testes automatizados para este sistema.
 
-🔩 Analise os testes de ponta a ponta
-Explique que eles verificam esses testes e porquê.
-
-
-⌨️ E testes de estilo de codificação
-Explique que eles verificam esses testes e porquê.
-
+- A  Comunicação MQTT: Configuração do ESP32 para enviar dados protocolo MQTT para um servidor ou plataforma na nuvem, permitindo monitoramento remoto.
+- Gráfico de Leitura no Ubidots.
 
 
 
 ### ✒️ Discente:
 #### Taimara Liz de Souza
 
-
-### Docentes:
-#### Cristiano Morais de Souza
-#### Luiz Carlos Machi Lozano
-
-
-
-
-
-
-🎁 Expressões de gratidão
-
-⌨️ com ❤️ por Armstrong Lohãns 😊
+ ❤️
