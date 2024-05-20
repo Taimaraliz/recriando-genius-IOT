@@ -18,7 +18,7 @@ adolescência.
  * sensor HCSR04
  * 1 Protoboard (mín.820 pinos)
  * 4 resistores de 300 ohms;
- *  4 Pushbuttons
+ * 4 Pushbuttons
  * 1 buzzer como atuador para alertas. 
  * 4 leds de Cores Diferentes (azul, vermelho, amarelo e verde)
  * 26 Jumpers macho-macho
