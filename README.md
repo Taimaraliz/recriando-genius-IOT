@@ -74,9 +74,11 @@ Para publicar os dados no IoT Cloud, precisamos de alguma plataforma IoT. Portan
 Acesse ubidots.com e crie uma conta. Você terá um período de teste de 30 dias.
 
 #### Links importantes nas configurações e criações
-[Doc. Ubidots](https://help.ubidots.com/en/articles/748067-connect-an-esp32-devkitc-to-ubidots-over-mqtt)
-[Doc. Uarduino](https://embarcados.com.br/como-programar-o-esp32-na-arduino-ide/)
-[Doc. config. ESP32](https://www.crescerengenharia.com/post/configurar-wifi-esp32)
+![Doc. Ubidots](https://help.ubidots.com/en/articles/748067-connect-an-esp32-devkitc-to-ubidots-over-mqtt)
+
+![Doc. Uarduino](https://embarcados.com.br/como-programar-o-esp32-na-arduino-ide/)
+
+![Doc. config. ESP32](https://www.crescerengenharia.com/post/configurar-wifi-esp32)
 
 
 
