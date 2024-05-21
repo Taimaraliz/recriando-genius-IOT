@@ -15,16 +15,17 @@ adolescência.
 
 ### 🛠️ Construido com:
  * Linguagem C++
- * ESP32
- * sensor HCSR04
+ * Arduino
+ * Sensor HCSR04
  * 1 Protoboard (mín.820 pinos)
- * 4 resistores de 300 ohms;
+ * 4 Resistores de 300 ohms;
  * 4 Pushbuttons
- * 1 buzzer como atuador para alertas. 
- * 4 leds de Cores Diferentes (azul, vermelho, amarelo e verde)
+ * 1 Buzzer como atuador para alertas. 
+ * 4 Leds de Cores Diferentes (azul, vermelho, amarelo e verde)
  * 26 Jumpers macho-macho
  * 8 Resistências elétricas de 10kΩ
  * desenvolvimento feito na IDE do Arduino, empregando programação específica para integrar hardware e software
+   ** para a comunicação com o protocolo MQTT será usado o ESP32
  * comunicação via MQTT para transmissão de dados em tempo real para a plataforma Ubidots.
 
 
